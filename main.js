@@ -6,7 +6,7 @@ const supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZS
 const supabase = createClient(supabaseUrl, supabaseKey);
 
 document.querySelector('#app').innerHTML = `
-    <h1>Supabase Link Search</h1>
+    <h1>Custom search</h1>
     <form id="add-link-form">
         <h2>Add a New Link</h2>
         <input type="text" id="title" placeholder="Title" required>
